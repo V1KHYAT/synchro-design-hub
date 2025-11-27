@@ -71,19 +71,19 @@ export const FigmaCanvas = () => {
       <div className="flex flex-1 overflow-hidden">
         {/* Left Tool Panel */}
         <div className="w-12 bg-figma-toolbar border-r border-figma-border flex flex-col items-center py-3 gap-1">
-          <Button variant="ghost" size="icon" className="h-9 w-9 text-foreground hover:bg-muted/50">
+          <Button variant="ghost" size="icon" className="h-9 w-9 text-white dark:text-foreground hover:bg-muted/50">
             <MousePointer2 className="w-4 h-4" />
           </Button>
-          <Button variant="ghost" size="icon" className="h-9 w-9 text-muted-foreground hover:bg-muted/50 hover:text-foreground">
+          <Button variant="ghost" size="icon" className="h-9 w-9 text-white/70 dark:text-muted-foreground hover:bg-muted/50 hover:text-white dark:hover:text-foreground">
             <Square className="w-4 h-4" />
           </Button>
-          <Button variant="ghost" size="icon" className="h-9 w-9 text-muted-foreground hover:bg-muted/50 hover:text-foreground">
+          <Button variant="ghost" size="icon" className="h-9 w-9 text-white/70 dark:text-muted-foreground hover:bg-muted/50 hover:text-white dark:hover:text-foreground">
             <Pen className="w-4 h-4" />
           </Button>
-          <Button variant="ghost" size="icon" className="h-9 w-9 text-muted-foreground hover:bg-muted/50 hover:text-foreground">
+          <Button variant="ghost" size="icon" className="h-9 w-9 text-white/70 dark:text-muted-foreground hover:bg-muted/50 hover:text-white dark:hover:text-foreground">
             <Type className="w-4 h-4" />
           </Button>
-          <Button variant="ghost" size="icon" className="h-9 w-9 text-muted-foreground hover:bg-muted/50 hover:text-foreground">
+          <Button variant="ghost" size="icon" className="h-9 w-9 text-white/70 dark:text-muted-foreground hover:bg-muted/50 hover:text-white dark:hover:text-foreground">
             <Circle className="w-4 h-4" />
           </Button>
         </div>
